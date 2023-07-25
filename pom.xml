@@ -72,4 +72,16 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0oqwtylmn1ll-artifactory-primary-0-snapshots</name>
+        <url>https://artifactsdemo.jfrog.io/artifactory/artifactsdemo-libs-snapshot</url>
+    </snapshotRepository>
+    <repository>
+        <id>release</id>
+        <name>a0oqwtylmn1ll-artifactory-primary-0-releases</name>
+        <url>https://artifactsdemo.jfrog.io/artifactory/artifactsdemo-libs-release</url>
+    </repository>
+  </distributionManagement>
 </project>
